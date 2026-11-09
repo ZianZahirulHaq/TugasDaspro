@@ -42,7 +42,7 @@ RataRataNilai = (tugas+kuis+uts+uas)/4
 print(RataRataNilai)
 
 if (RataRataNilai >= 70):
-    if(tugas >= 60 and uts >= 60 and uas >= 60):
+    if(tugas >= 60 and kuis >= 60 and uts >= 60 and uas >= 60):
         print(f"Selamat {nama} anda LULUS tanpa remedial")
     else:
         print(f"{nama} Kamu LULUS dengan REMEDIAL")
