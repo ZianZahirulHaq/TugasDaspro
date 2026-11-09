@@ -38,7 +38,7 @@ tugas = int(input("Masukkan Nilai Tugas Anda: "))
 kuis = int(input("Masukkan nilai kuis anda: "))
 uts = int(input("Masukkan Nilai UTS: "))
 uas = int(input("Masukkan nilai UAS anda: "))
-RataRataNilai = (tugas+uts+uas)/3
+RataRataNilai = (tugas+kuis+uts+uas)/4
 print(RataRataNilai)
 
 if (RataRataNilai >= 70):
