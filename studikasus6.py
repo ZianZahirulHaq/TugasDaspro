@@ -35,9 +35,10 @@ else:
 #STUDI KASUS 3
 nama = input("Masukkan Nama Anda: ")
 tugas = int(input("Masukkan Nilai Tugas Anda: "))
+kuis = int(input("Masukkan nilai kuis anda: "))
 uts = int(input("Masukkan Nilai UTS: "))
 uas = int(input("Masukkan nilai UAS anda: "))
-RataRataNilai = (tugas+uts+uas)/3 
+RataRataNilai = (tugas+uts+uas)/3
 print(RataRataNilai)
 
 if (RataRataNilai >= 70):
