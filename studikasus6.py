@@ -16,6 +16,7 @@ JenisKelamin = input("Pilih jenis kelamin anda (L/P): ")
 umur = int(input("Umur anda: "))
 TinggiBadan = int(input("Tinggi Badan anda: "))
 Iq = int(input("IQ anda: "))
+Eq = int(input("EQ anda: "))
 
 
 if (JenisKelamin == "L"):
