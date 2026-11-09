@@ -25,7 +25,7 @@ if (JenisKelamin == "L"):
     else:
         print("ANDA GAGAL MENJADI MODEL CATWALk")
 elif(JenisKelamin == "P"):
-    if(umur >= 18 and umur <= 25 and TinggiBadan >= 170 and Iq >= 130) :
+    if(umur >= 18 and umur <= 25 and TinggiBadan >= 170 and Iq >= 130 and Eq >= 115) :
         print("Selamat anda adalah orang yang dapat menjadi model catwalk")
     else:
         print("ANDA GAGAL MENJADI MODEL CATWALK")
